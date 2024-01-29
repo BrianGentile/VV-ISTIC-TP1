@@ -11,6 +11,7 @@
 5.  Shortly after the appearance of WebAssembly another paper proposed a mechanized specification of the language using Isabelle. The paper can be consulted here: https://www.cl.cam.ac.uk/~caw77/papers/mechanising-and-verifying-the-webassembly-specification.pdf. This mechanized specification complements the first formalization attempt from the paper. According to the author of this second paper, what are the main advantages of the mechanized specification? Did it help improving the original formal specification of the language? What other artifacts were derived from this mechanized specification? How did the author verify the specification? Does this new specification removes the need for testing?
 
 ## Answers
+Authors: Dufeil Jaufret & Gentile Brian
 
 1. Security flaw in Log4j. Hackers could run malicious code by forcing Log4j to store a log entry with a specific string. It is a global bug. Log4j is a open source logging software so used by a lot of people, some people even said that this vulnerability poses a "severe risk" to the Internet. Apache gave a critical ranking to the bug and rushed a solution
 
